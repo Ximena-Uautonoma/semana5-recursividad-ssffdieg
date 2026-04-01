@@ -10,7 +10,7 @@ def factorial_ciclo(n):
     for i in range(1,n +1):
         resultado *= i
     return resultado
-    print("factorial_ciclo: ",factorial_ciclo(5))
+print("factorial_ciclo: ",factorial_ciclo(5))
 
 
 
@@ -19,4 +19,4 @@ def factorial_recursivo(n):
         return 1
     else:
         return n * factorial_ciclo(n-1)
-        print ("factorial_recursivo: ",factorial_recursivo(5))
+print ("factorial_recursivo: ",factorial_recursivo(5))
