@@ -8,8 +8,8 @@ def contar_pares_ciclo(n):
     for i in range(1,n+1):
         if i % 2 == 0:
             contador += 1
-    return contador(5)
-print("contar_pares_ciclo: ", contar_pares_ciclo(5))
+    return contador
+print("total de ciclos pares: ", contar_pares_ciclo(6))
 
 
 def contar_pares_recursivo(n):
