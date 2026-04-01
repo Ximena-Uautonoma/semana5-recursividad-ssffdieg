@@ -13,4 +13,10 @@ print("total de ciclos pares: ", contar_pares_ciclo(6))
 
 
 def contar_pares_recursivo(n):
-    pass
+    if n == 0:
+        return 0
+    elif n % 2== 0:
+        return 1 + contar_pares_recursivo(n-1)
+    else:
+        return contar_pares_recursivo(n-1)
+print("Total de pares: ", contar_pares_recursivo(6))
