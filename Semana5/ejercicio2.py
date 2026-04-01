@@ -11,7 +11,11 @@ def suma_ciclo(n):
     """
     Retorna la suma de los primeros n números usando un ciclo.
     """
-    #prueba
+    suma = 0
+    for i in range(1,n+1):
+        suma += i
+    return suma
+    print(suma_ciclo(5))
     pass
 
 
