@@ -13,7 +13,11 @@ def total_ventas_ciclo(ventas):
     Retorna el total de ventas usando ciclos.
     """
     # Escriba aquí su solución
-    pass
+    total = 0
+    for monto in ventas:
+        total += monto
+    return total
+
 
 
 def total_ventas_recursivo(ventas):
@@ -21,4 +25,6 @@ def total_ventas_recursivo(ventas):
     Retorna el total de ventas usando recursividad.
     """
     # Escriba aquí su solución
-    pass
+
+ventas_diarias = [100, 200, 150, 300, 250]
+print ("Total de ventas con ciclo:", total_ventas_ciclo(ventas_diarias))
