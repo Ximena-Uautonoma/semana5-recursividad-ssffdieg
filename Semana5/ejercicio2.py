@@ -15,12 +15,17 @@ def suma_ciclo(n):
     for i in range(1,n+1):
         suma += i
     return suma
-    print(suma_ciclo(5))
-    pass
+    print("Ciclo: ", suma_ciclo(5))
+
 
 
 def suma_recursiva(n):
     """
     Retorna la suma de los primeros n números usando recursividad.
     """
-    pass
+    if n== 1:
+        return 1
+    else:
+        return n + suma_recursiva(n-1)
+
+print("recursiva: ", suma_recursiva(5))
