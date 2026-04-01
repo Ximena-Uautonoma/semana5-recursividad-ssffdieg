@@ -18,8 +18,6 @@ def total_ventas_ciclo(ventas):
         total += monto
     return total
 
-
-
 def total_ventas_recursivo(ventas):
     """
     Retorna el total de ventas usando recursividad.
