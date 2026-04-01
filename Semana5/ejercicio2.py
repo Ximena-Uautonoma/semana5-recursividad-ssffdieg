@@ -15,7 +15,7 @@ def suma_ciclo(n):
     for i in range(1,n+1):
         suma += i
     return suma
-    print("Ciclo: ", suma_ciclo(5))
+print("Ciclo: ", suma_ciclo(5))
 
 
 
