@@ -15,4 +15,8 @@ def factorial_ciclo(n):
 
 
 def factorial_recursivo(n):
-    pass
+    if n == 1:
+        return 1
+    else:
+        return n * factorial_ciclo(n-1)
+        print ("factorial_recursivo: ",factorial_recursivo(5))
