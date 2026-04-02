@@ -8,7 +8,7 @@ def potencia_ciclo(base, exponente):
     for i in range(exponente):
         resultado *=base
     return resultado
-print("La potencia en ciclo: ", potencia_ciclo(2,5))
+print("La potencia en ciclo: ", potencia_ciclo(2,4))
 
 
 def potencia_recursiva(base, exponente):
@@ -16,5 +16,5 @@ def potencia_recursiva(base, exponente):
         return  1
     else:
         return base * potencia_recursiva(base, exponente -1)
-print("La potencia en recursividad: ", potencia_recursiva(2,5))
+print("La potencia en recursividad: ", potencia_recursiva(2,4))
 
