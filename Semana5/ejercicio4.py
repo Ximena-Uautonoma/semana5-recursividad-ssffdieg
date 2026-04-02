@@ -9,7 +9,7 @@ def contar_pares_ciclo(n):
         if i % 2 == 0:
             contador += 1
     return contador
-print("total de ciclos pares: ", contar_pares_ciclo(6))
+print("total de ciclos pares: ", contar_pares_ciclo(10))
 
 
 def contar_pares_recursivo(n):
@@ -19,4 +19,4 @@ def contar_pares_recursivo(n):
         return 1 + contar_pares_recursivo(n-1)
     else:
         return contar_pares_recursivo(n-1)
-print("Total de pares: ", contar_pares_recursivo(6))
+print("Total de pares: ", contar_pares_recursivo(10))
