@@ -17,8 +17,6 @@ def suma_ciclo(n):
     return suma
 print("Ciclo: ", suma_ciclo(5))
 
-
-
 def suma_recursiva(n):
     """
     Retorna la suma de los primeros n números usando recursividad.
